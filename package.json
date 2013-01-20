@@ -10,22 +10,29 @@
 			"email": "roberto.torella@gmail.com"
 		} 
 	],
-	"scripts": {
-		"test": ""
+	"bin": {
+		"tufo": "./bin/tufo"
 	},
+	"scripts": {
+		"test": "vows --spec --isolate",
+	},
+	"main": "./lib/http-server",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ganglio/tufo.js.git"
 	},
 	"keywords": [
-		"micro blog",
-		"static html",
+		"micro",
+		"blog",
+		"static",
+		"html",
 		"markdown"
 	],
 	"dependencies" : {
 	},
 	"analyze": false,
 	"devDependencies": {
+		"vows": "0.5.x"
 	},
 	"license": "CC 3.0 BY NC",
 	"engines": {
