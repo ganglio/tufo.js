@@ -16,7 +16,7 @@
 	"scripts": {
 		"test": "vows --spec --isolate",
 	},
-	"main": "./lib/http-server",
+	"main": "./lib/tofu",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ganglio/tufo.js.git"
