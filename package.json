@@ -14,7 +14,7 @@
 		"tufo": "./bin/tufo"
 	},
 	"scripts": {
-		"test": "vows --spec --isolate",
+		"test": "vows --spec --isolate"
 	},
 	"main": "./lib/tofu",
 	"repository": {
@@ -29,6 +29,8 @@
 		"markdown"
 	],
 	"dependencies" : {
+		"colors": "*",
+		"flatiron": "0.1.x"
 	},
 	"analyze": false,
 	"devDependencies": {
