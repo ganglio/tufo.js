@@ -1,0 +1,34 @@
+{
+	"name": "tufo.js",
+	"preferGlobal": "true",
+	"version": "0.0.1",
+	"author": "Roberto Torella <roberto.torella@gmail.com>",
+	"description": "An tiny blog engine with static html pages and markdown contents.",
+	"contributors": [ 
+		{
+			"name": "Roberto Torella",
+			"email": "roberto.torella@gmail.com"
+		} 
+	],
+	"scripts": {
+		"test": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ganglio/tufo.js.git"
+	},
+	"keywords": [
+		"micro blog",
+		"static html",
+		"markdown"
+	],
+	"dependencies" : {
+	},
+	"analyze": false,
+	"devDependencies": {
+	},
+	"license": "CC 3.0 BY NC",
+	"engines": {
+		"node": ">=0.8"
+	}
+}
