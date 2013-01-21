@@ -3,7 +3,7 @@
 	"preferGlobal": "true",
 	"version": "0.0.1",
 	"author": "Roberto Torella <roberto.torella@gmail.com>",
-	"description": "An tiny blog engine with static html pages and markdown contents.",
+	"description": "An tiny blog engine with static HTML pages and markdown contents.",
 	"contributors": [ 
 		{
 			"name": "Roberto Torella",
@@ -30,7 +30,8 @@
 	],
 	"dependencies" : {
 		"colors": "*",
-		"flatiron": "0.1.x"
+		"flatiron": "0.1.x",
+		"pkginfo": "0.2.3"
 	},
 	"analyze": false,
 	"devDependencies": {
