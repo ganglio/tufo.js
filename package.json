@@ -14,7 +14,7 @@
 		"tufo": "./bin/tufo"
 	},
 	"scripts": {
-		"test": "vows --spec --isolate"
+		"test": "vows test/* --spec --isolate"
 	},
 	"main": "./lib/tofu",
 	"repository": {
