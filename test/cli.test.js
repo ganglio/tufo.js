@@ -23,7 +23,6 @@ vows.describe('CLI').addBatch({
 			'new': function(topic) {
 				assert.equal(topic.router.routes.new['(.+)'].on,scaffolder.newPost);
 			},
-
 			'ls': function(topic) {
 				assert.equal(topic.router.routes.ls.on,scaffolder.ls);
 			},
@@ -32,6 +31,9 @@ vows.describe('CLI').addBatch({
 			},
 			'publish': function(topic) {
 				assert.equal(topic.router.routes.publish['([0-9]+)'].on,scaffolder.publish);
+			},
+			'unpublish': function(topic) {
+				assert.equal(topic.router.routes.publish['([0-9]+)'].on,scaffolder.unpublish);
 			}
 		},
 
