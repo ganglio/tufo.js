@@ -23,12 +23,15 @@ vows.describe('CLI').addBatch({
 			'new': function(topic) {
 				assert.equal(topic.router.routes.new['(.+)'].on,scaffolder.newPost);
 			},
-			
+
 			'ls': function(topic) {
 				assert.equal(topic.router.routes.ls.on,scaffolder.ls);
 			},
 			'rm': function(topic) {
 				assert.equal(topic.router.routes.rm['([0-9]+)'].on,scaffolder.rm);
+			},
+			'publish': function(topic) {
+				assert.equal(topic.router.routes.publish['([0-9]+)'].on,scaffolder.publish);
 			}
 		},
 
