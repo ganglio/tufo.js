@@ -4,11 +4,11 @@
 	"version": "0.0.1",
 	"author": "Roberto Torella <roberto.torella@gmail.com>",
 	"description": "An tiny blog engine with static HTML pages and markdown contents.",
-	"contributors": [ 
+	"contributors": [
 		{
 			"name": "Roberto Torella",
 			"email": "roberto.torella@gmail.com"
-		} 
+		}
 	],
 	"bin": {
 		"tufo": "./bin/tufo"
@@ -16,7 +16,7 @@
 	"scripts": {
 		"test": "vows test/* --spec --isolate"
 	},
-	"main": "./lib/tofu",
+	"main": "./lib/tufo",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ganglio/tufo.js.git"
