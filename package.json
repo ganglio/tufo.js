@@ -33,7 +33,7 @@
 		"flatiron": "0.1.x",
 		"pkginfo": "0.2.3",
 		"ncp": "*",
-		"storr": "*"
+		"closet": "*"
 	},
 	"analyze": false,
 	"devDependencies": {
