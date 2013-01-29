@@ -33,7 +33,7 @@ vows.describe('CLI').addBatch({
 				assert.equal(topic.router.routes.publish['([0-9]+)'].on,scaffolder.publish);
 			},
 			'unpublish': function(topic) {
-				assert.equal(topic.router.routes.publish['([0-9]+)'].on,scaffolder.unpublish);
+				assert.equal(topic.router.routes.unpublish['([0-9]+)'].on,scaffolder.unpublish);
 			}
 		},
 
