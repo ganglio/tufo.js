@@ -1,9 +1,9 @@
 var vows = require('vows'),
-		assert = require('assert'),
-		flatiron = require('flatiron'),
-		cli = require('../lib/cli'),
-		scaffolder = require('../lib/scaffolder'),
-		builder = require('../lib/builder');
+    assert = require('assert'),
+    flatiron = require('flatiron'),
+    cli = require('../lib/cli'),
+    scaffolder = require('../lib/scaffolder'),
+    builder = require('../lib/builder');
 
 vows.describe('CLI').addBatch({
 	'The CLI should be a flatiron app': {
