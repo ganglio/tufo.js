@@ -33,7 +33,8 @@
 		"flatiron": "0.1.x",
 		"pkginfo": "0.2.3",
 		"utile": "*",
-		"closet": "*"
+		"closet": "*",
+		"moment":"*"
 	},
 	"analyze": false,
 	"devDependencies": {
